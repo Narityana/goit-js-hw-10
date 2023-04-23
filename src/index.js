@@ -31,6 +31,7 @@ function onInput(event) {
         cleanReport();
         infoEl.innerHTML = reportSearchCountry(data);
       } else {
+        cleanReport();
         listEl.innerHTML = shortListCounrties(data);
       }
     })
